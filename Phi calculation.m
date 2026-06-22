@@ -16,7 +16,7 @@ phi0 = fzero(r,.5)
 x = z./(1+phi0*(k-1))
 y = k.*x
 
-phi = linspace(0,1,100) ;        %in ghesmat baraye rasm plot tarif shude ast
+phi = linspace(0,1,100) ;        %in ghesmat baraye rasm plot tarif shude
 R = [z(1)*(k(1)-1)./(1+ phi*(k(1)-1)) + ...
                          z(2)*(k(2)-1)./(1+ phi*(k(2)-1))];
 plot(phi ,R )
